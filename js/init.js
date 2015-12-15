@@ -53,3 +53,7 @@ $(window).scroll(function(){
     var percent = $(document).scrollTop() / (260);
     div.css('opacity', percent);       
 });
+
+$("#portfolioModal-1").on('hidden.bs.modal', function (e) {
+        $("#portfolioModal-1 iframe").attr("src", $("#portfolioModal-1 iframe").attr("src"));
+    })
