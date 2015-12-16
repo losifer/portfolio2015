@@ -54,6 +54,6 @@ $(window).scroll(function(){
     div.css('opacity', percent);       
 });
 
-$("#portfolioModal-1").on('hidden.bs.modal', function (e) {
-        $("#portfolioModal-1 iframe").attr("src", $("#portfolioModal-1 iframe").attr("src"));
+$("#portfolioModal-6").on('hidden.bs.modal', function (e) {
+        $("#portfolioModal-6 iframe").attr("src", $("#portfolioModal-6 iframe").attr("src"));
     })
